@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<inimene synd="1926">
+	<nimi>Elisabeth II</nimi>
+	<lapsed>
+		<inimene synd="1948">
+			<nimi>King Charles III</nimi>
+			<lapsed>
+				<inimene synd="1982">
+					<nimi>William, The Duke of Cambridge</nimi>
+					<lapsed>
+						<inimene synd="2013">
+							<nimi>Prince George</nimi>
+						</inimene>
+						<inimene synd="2015">
+							<nimi>Princess Charlotte</nimi>
+						</inimene>
+						<inimene synd="2018">
+							<nimi>Prince Louis</nimi>
+						</inimene>
+					</lapsed>
+				</inimene>
+				<inimene synd="1984">
+					<nimi>Harry(Henry) Mountbatten-Windsor</nimi>
+					<lapsed>
+						<inimene synd="2018">
+							<nimi>Prince Archie</nimi>
+						</inimene>
+						<inimene synd="2021">
+							<nimi>Princess Lilibet</nimi>
+						</inimene>
+					</lapsed>
+				</inimene>
+			</lapsed>
+		</inimene>
+		<inimene synd="1950">
+			<nimi>Anne, Royal Princess</nimi>
+			<lapsed>
+				<inimene synd="1977">
+					<nimi>Peter Phillips</nimi>
+				</inimene>
+				<inimene synd="1981">
+					<nimi>Zara Phillips</nimi>
+				</inimene>
+			</lapsed>
+		</inimene>
+		<inimene synd="1964">
+			<nimi>Prince Edward, Earl of Wessex</nimi>
+		</inimene>
+		<inimene synd="1960">
+			<nimi>Prince Andrew, Duke of York</nimi>
+		</inimene>
+	</lapsed>
+</inimene>
