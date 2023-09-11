@@ -129,7 +129,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="sugupuu.xml" />
-    <Content Include="sugupuuLisa.xslt" />
+    <Content Include="sugupuuLisa.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -160,6 +162,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="tooted.xml" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />

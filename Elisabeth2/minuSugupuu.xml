@@ -2,7 +2,7 @@
 <!--surma põhjus-->
 <inimene synd="1760" surm="1854" aadress="Oberhausen">
 	<nimi>Anna Maria Goschl</nimi>
-	<too>?</too>
+	<too>-</too>
 	<lapsed>
 		<inimene synd="1792" surm="1857" aadress="Berlin">
 			<nimi>Johann Georg Hiedler(Hitler)</nimi>
@@ -18,7 +18,7 @@
 						</inimene>
 						<inimene synd="1896" surm="1860" aadress="Berlin">
 							<nimi>Paula Hitler</nimi>
-							<too>Sekretär-referents</too>
+							<too>Sekretär referents</too>
 						</inimene>
 						<inimene synd="1885" surm="1887" aadress="Berlin">
 							<nimi>Gustav Hitler</nimi>
@@ -42,7 +42,7 @@
 		</inimene>
 		<inimene synd="1800" surm="1861" aadress="Oberhausen">
 			<nimi>Lorenz Hiedler(Hitler)</nimi>
-			<too>?</too>
+			<too>-</too>
 		</inimene>
 		<inimene synd="1807" surm="1888" aadress="Dortmund">
 			<nimi>Johann Nepomuk Hiedler</nimi>
@@ -50,11 +50,11 @@
 			<lapsed>
 				<inimene synd="1832" surm="1900" aadress="Dortmund">
 					<nimi>Walburga Hiedler</nimi>
-					<too>?</too>
+					<too>-</too>
 				</inimene>
 				<inimene synd="1830" surm="1906" aadress="Dortmund">
 					<nimi>Johanna Hiedler</nimi>
-					<too>?</too>
+					<too>-</too>
 				</inimene>
 			</lapsed>
 		</inimene>

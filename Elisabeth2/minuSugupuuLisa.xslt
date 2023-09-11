@@ -2,17 +2,19 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
 	<xsl:output method="html" indent="yes"/>
 
-	<xsl:template match="/">
+	<xsl:template match="/inimene">
 		<strong>1. Trüki välja vanaema nimi, pärast semikoolon ja tema lapsed</strong>
 		<br></br>
-		<xsl:value-of select="concat(nimi,';')"/>
+		<xsl:value-of select="concat(//inimene/nimi,';')"/>
 		<xsl:for-each select="lapsed/inimene">
 			<xsl:value-of select="nimi"/>
 			<xsl:text>, </xsl:text>
 		</xsl:for-each>
 		<br></br>
 		<strong>2. Vormista kõik xml andmed tabelina</strong>
+		<br></br>
 		<strong>6. Värvi tabelis kõik nimed mis sisaldavad ... täht punasena (... asemel pane oma täht)</strong>
+		<br></br>
 		<strong>7. Värvi kõik nimed, kellel on vähemalt kaks last kollasena (taustavärv on kollane)</strong>
 		<table>
 			<tr>
@@ -21,6 +23,7 @@
 				<td>Synniaasta</td>
 				<td>Vanus</td>
 				<td>Too</td>
+				<td>Aadress</td>
 			</tr>
 			<xsl:for-each select="//inimene">
 				<tr>
@@ -56,7 +59,21 @@
 						<xsl:value-of select="@surm - @synd"/>
 					</td>
 					<td>
-						<xsl:value-of select="too"/>
+						<xsl:choose>
+							<xsl:when test="contains(too,'-')">
+								<td bgcolor="red">
+									<xsl:value-of select="too"/>
+								</td>
+							</xsl:when>
+							<xsl:otherwise>
+								<td bgcolor="green">
+									<xsl:value-of select="too"/>
+								</td>
+							</xsl:otherwise>
+						</xsl:choose>
+					</td>
+					<td>
+						<xsl:value-of select="@aadress"/>
 					</td>
 				</tr>
 			</xsl:for-each>
@@ -86,6 +103,7 @@
 			</xsl:for-each>
 		</ul>
 
+		<strong>8. Värvige roheliseks need, kellel on tööinfo</strong>
 		
 
 	</xsl:template>

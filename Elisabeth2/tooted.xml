@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tooted>
+	<toode>
+		<nimetus>test2</nimetus>
+		<kirjeldus>test2</kirjeldus>
+	</toode>
+	<toode>
+		<nimetus>test3</nimetus>
+		<kirjeldus>test3</kirjeldus>
+	</toode>
+</tooted>
