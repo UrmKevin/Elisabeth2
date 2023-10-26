@@ -1,62 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <!--surma põhjus-->
-<inimene synd="1760" surm="1854" aadress="Oberhausen">
-	<nimi>Anna Maria Goschl</nimi>
+<inimene synd="1792" surm="1857" linn="Tartu">
+	<nimi>Viktoria Voitovic</nimi>
 	<too>-</too>
 	<lapsed>
-		<inimene synd="1792" surm="1857" aadress="Berlin">
-			<nimi>Johann Georg Hiedler(Hitler)</nimi>
-			<too>Miller</too>
+		<inimene synd="1987" surm="-" linn="Tallinn">
+			<nimi>Milla Urm</nimi>
+			<too>Raamatupidaja</too>
 			<lapsed>
-				<inimene synd="1837" surm="1903" aadress="Berlin">
-					<nimi>Alois Hitler</nimi>
-					<too>Mesinik, tolliametnik</too>
-					<lapsed>
-						<inimene synd="1889" surm="1945" aadress="Berlin">
-							<nimi>Adolf Hitler</nimi>
-							<too>Poliitik</too>
-						</inimene>
-						<inimene synd="1896" surm="1860" aadress="Berlin">
-							<nimi>Paula Hitler</nimi>
-							<too>Sekretär referents</too>
-						</inimene>
-						<inimene synd="1885" surm="1887" aadress="Berlin">
-							<nimi>Gustav Hitler</nimi>
-							<too>-</too>
-						</inimene>
-						<inimene synd="1886" surm="1888" aadress="Berlin">
-							<nimi>Ida Hitler</nimi>
-							<too>-</too>
-						</inimene>
-						<inimene synd="1892" surm="1892" aadress="Berlin">
-							<nimi>Otto Hitler</nimi>
-							<too>-</too>
-						</inimene>
-						<inimene synd="1894" surm="1900" aadress="Berlin">
-							<nimi>Edmund Hitler</nimi>
-							<too>-</too>
-						</inimene>
-					</lapsed>
-				</inimene>
-			</lapsed>
-		</inimene>
-		<inimene synd="1800" surm="1861" aadress="Oberhausen">
-			<nimi>Lorenz Hiedler(Hitler)</nimi>
-			<too>-</too>
-		</inimene>
-		<inimene synd="1807" surm="1888" aadress="Dortmund">
-			<nimi>Johann Nepomuk Hiedler</nimi>
-			<too>Põllumees</too>
-			<lapsed>
-				<inimene synd="1832" surm="1900" aadress="Dortmund">
-					<nimi>Walburga Hiedler</nimi>
+				<inimene synd="2005" surm="-" linn="Tallinn">
+					<nimi>Kevin Urm</nimi>
 					<too>-</too>
 				</inimene>
-				<inimene synd="1830" surm="1906" aadress="Dortmund">
-					<nimi>Johanna Hiedler</nimi>
+				<inimene synd="2017" surm="-" linn="Tallinn">
+					<nimi>Sander Urm</nimi>
 					<too>-</too>
 				</inimene>
 			</lapsed>
+		</inimene>
+		<inimene synd="1985" surm="-" linn="Tallinn">
+			<nimi>Galina Passenko</nimi>
+			<too>Näomassaaži terapeut</too>
+			<lapsed>
+				<inimene synd="2005" surm="-" linn="Tallinn">
+					<nimi>Ksenia Passenko</nimi>
+					<too>-</too>
+				</inimene>
+				<inimene synd="2012" surm="-" linn="Tallinn">
+					<nimi>Kirill Passenko</nimi>
+					<too>-</too>
+				</inimene>
+			</lapsed>
+		</inimene>
+		<inimene synd="1995" surm="-" linn="Tallinn">
+			<nimi>Vitali Voitovic</nimi>
+			<too>Ehitaja</too>
 		</inimene>
 	</lapsed>
 </inimene>
